@@ -183,6 +183,7 @@ public class Variable {
 		int inum = (int) dnum;
 		System.out.println("inum : " + inum);
 
+		// 강제 형변환으로 인해 예상치 못한 데이터 손실 발생에 주의
 		int num = 290;
 		System.out.println("num : " + num);
 
